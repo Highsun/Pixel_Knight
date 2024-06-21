@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Pixel_bond';
+    src: url('../fonts/PixelOperator8-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Pixel_light';
+    src: url('../fonts/PixelOperator8-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto_regular';
+    src: url('../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf') format('truetype');
+}
