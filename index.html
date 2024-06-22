@@ -7,8 +7,9 @@
     <title>Pixel Knight</title>
 
     <link rel="stylesheet" type="text/css" href="./assets/css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/all.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/homepage.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="./assets/fontawesome/css/all.css">
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-EGC1WMNLWP"></script>
@@ -31,10 +32,12 @@
                 <li><a href="#introduction">Introduction</a></li>
                 <li><a href="#">Changelog</a></li>
                 <li><a href="#">Donate</a></li>
+                <li><a onclick="copyText()">Sharing</a></li>
                 <li><a href="./pages/download.html"><div class="download">Download</div></a></li>
             </ul>
         </nav>
     </header>
+    <script src="./assets/js/copyText.js"></script>
 
     <main>
         <div class="video_container">
@@ -49,7 +52,7 @@
 
         <h2 id="introduction" style="background-color: rgba(0, 0, 0, 0.5); padding: 50px 80px; margin: 0;">Introduction</h2>
         <p style="font-size: 1.5rem; background-color: rgba(0, 0, 0, 0.5); padding: 0 150px; margin: 0;">Welcome to Pixel Knight!</p>
-        <div class="container">
+        <div class="main_container">
             <div class="half">
                 <p>Players use the keyboard to control a knight to explore in the dangerous map, where there are dense tropical rainforests, dry deserts, hot red sand... There is also a mysterious realm covered with ice and snow all year round. Get gold coins, avoid monsters, and find the big secret treasure under the sacred flag!</p>
             </div>
@@ -57,7 +60,7 @@
                 <img src="#" alt="Image">
             </div>
         </div>
-        <div class="container">
+        <div class="main_container">
             <div class="half">
                 <img src="#" alt="Image">
             </div>
@@ -66,5 +69,29 @@
             </div>
         </div>
     </main>
+
+    <p id="copyText" hidden>https://highsun.github.io/Pixel_Knight/</p>
+
+    <footer>
+        <div class="footer_container">
+            <ul class="footer_links">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Support</a></li>
+                <li ><a href="#">Contact Us</a></li>
+                <li style="font-weight: bold;">|</li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Legal</a></li>
+                <li><a href="#">Terms</a></li>
+            </ul>
+        </div>
+        <a href="https://highsun.github.io/HS_Studio/" target="_blank" style="text-decoration: none;"><span style="font-family: 'Shrikhand', cursive; font-size: 3rem; color: #fff;">H.S. Studio</span></a>
+        <div class="footer_container" style="padding: 10px 0;">
+            <ul class="footer_links" style="gap: 10px;">
+                <li><a href="https://github.com/Highsun" style="font-size: 2rem;" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+        </div>
+        <p>&copy; 2024 H.S. Studio &nbsp;&nbsp;&nbsp;All Rights Reserved.</p>
+        <p>All trademarks referenced herein are the properties of their respective owners.</p>
+    </footer>
 </body>
 </html>

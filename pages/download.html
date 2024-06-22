@@ -3,7 +3,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="H.S. Studio">
+    <link rel="icon" type="image/x-icon" href="./assets/images/logo/favicon_io/favicon.ico">
     <title>Download</title>
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/all.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/download.css">
+    <link rel="stylesheet" type="text/css" href="../assets/fontawesome/css/all.css">
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-EGC1WMNLWP"></script>
@@ -16,6 +22,68 @@
     </script>
 </head>
 <body>
-    <p>This is a test page.</p>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <img src="../assets/images/logo/logo.png" alt="Logo" class="logo">
+            </div>
+            <ul class="navbar-nav">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#">Changelog</a></li>
+                <li><a href="#">Donate</a></li>
+                <li><a onclick="copyText()">Sharing</a></li>
+                <li><a href="./download.html"><div class="download">Download</div></a></li>
+            </ul>
+        </nav>
+    </header>
+    <script src="../assets/js/copyText.js"></script>
+
+    <main>
+        <div class="download_container">
+            <div class="icon">
+                <img src="../assets/images/logo/logo.png" alt="Icon">
+                <p><strong><a href="https://github.com/Highsun/Pixel_Knight/releases/download/v0.2-beta/Pixel.Knight.exe" download><i class="fa-brands fa-github"></i>GitHub Release</a></strong></p>
+            </div>
+            <div class="info">
+                <h2>Pixel Knight</h1>
+                <p><strong>Edition</strong>v0.2-beta</p>
+                <p><strong>OS</strong>Windows 10 or later</p>
+                <p><strong>Update time</strong>2024.06.21</p>
+                <p><strong>Doc</strong><br>
+                    <a href="../assets/doc/installation_instruction.html" target="_blank">Installation instructions</a>
+                </p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="download_container">
+            <h2 style="padding-top: 0; margin-top: 0;">Previous version</h2>
+        </div>
+    </main>
+
+    <p id="copyText" hidden>https://highsun.github.io/Pixel_Knight/</p>
+
+    <footer>
+        <div class="footer_container">
+            <ul class="footer_links">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Support</a></li>
+                <li ><a href="#">Contact Us</a></li>
+                <li style="font-weight: bold;">|</li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Legal</a></li>
+                <li><a href="#">Terms</a></li>
+            </ul>
+        </div>
+        <a href="https://highsun.github.io/HS_Studio/" target="_blank" style="text-decoration: none;"><span style="font-family: 'Shrikhand', cursive; font-size: 3rem; color: #fff;">H.S. Studio</span></a>
+        <div class="footer_container" style="padding: 10px 0;">
+            <ul class="footer_links" style="gap: 10px;">
+                <li><a href="https://github.com/Highsun" style="font-size: 2rem;" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+        </div>
+        <p>&copy; 2024 H.S. Studio &nbsp;&nbsp;&nbsp;All Rights Reserved.</p>
+        <p>All trademarks referenced herein are the properties of their respective owners.</p>
+    </footer>
 </body>
 </html>

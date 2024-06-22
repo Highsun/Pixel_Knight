@@ -1,0 +1,86 @@
+.download_container {
+    display: flex;
+    flex-wrap: wrap;
+    padding:  20px 130px;
+    left: 0;
+    right: 0;
+}
+
+.icon, .info {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.icon {
+    flex: 25%;
+}
+
+.info {
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 1.1rem;
+    flex: 75%;
+    text-align: left;
+}
+
+.icon img {
+    height: 150px;
+    border: 8px solid #d3d3d3;
+    border-radius: 10px;
+    overflow: hidden
+}
+
+.info p {
+    padding: 3px;
+    margin: 0;
+}
+
+.info strong {
+    width: 120px;
+    display: inline-block;
+    text-align: left;
+}
+
+.info a {
+    padding: 3px;
+    margin-left: 30px;
+    text-align: left;
+    font-family:'Courier New', Courier, monospace;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.info a:hover {
+    text-decoration: underline;
+}
+
+.icon a {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 10px;
+    font-size: 1.1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.icon i {
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+.icon a:hover {
+    background-color: #0056b3;
+    color: #d3d3d3;
+}
+
+hr {
+    width: 80%;
+    border: 1px solid #ccc;
+    margin: 10px auto;
+}

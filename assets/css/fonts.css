@@ -12,3 +12,8 @@
     font-family: 'Roboto_regular';
     src: url('../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf') format('truetype');
 }
+
+@font-face {
+    font-family: 'Shrikhand';
+    src: url('../fonts/Shrikhand/Shrikhand-Regular.ttf') format('truetype');
+}

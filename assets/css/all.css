@@ -1,0 +1,138 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(93, 68, 48);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* navigation bar */
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.navbar-brand .logo {
+    height: 40px;
+    border: 2px solid #d3d3d3;
+    border-radius: 5px;
+    overflow: hidden
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav li {
+    margin: 0 1rem;
+}
+
+.navbar-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.download {
+    color: black;
+    font-weight: bolder;
+    background-color: #ffa500;
+    padding: 3px 6px;
+    border: 3px solid #ffa500;
+    border-radius: 5px;
+    transition: color 0.3s;
+}
+
+.navbar-nav a:hover {
+    color: #ffa500;
+}
+
+.download:hover {
+    color: #fff;
+}
+
+/* title text and video */
+h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    letter-spacing: -0.1em;
+    font-family: 'Pixel_bond';
+}
+
+h2 {
+    color: #fff;
+    letter-spacing: -0.2em;
+    font-family: 'Pixel_light';
+}
+
+/* main */
+main {
+    margin-top: 80px;
+    left: 0;
+    right: 0;
+}
+
+/* footer */
+footer {
+    padding: 30px 150px;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_container {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer_links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer_links li {
+    display: inline;
+}
+
+.footer_links a {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer_links a:hover {
+    color: #ffa500;
+}
+footer p {
+    color: #d3d3d3;
+    padding: 2px 0;
+    margin: 0;
+}
