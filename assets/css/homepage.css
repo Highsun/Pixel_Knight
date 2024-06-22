@@ -46,3 +46,16 @@ main p {
     max-width: 100%;
     height: auto;
 }
+
+.image-scroll {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch; /* 兼容iOS的平滑滚动 */
+}
+.image-scroll img {
+    height: 300px;
+    width: auto;
+    object-fit: cover;
+    display: inline-block;
+}
