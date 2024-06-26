@@ -56,26 +56,14 @@ main p {
     display: flex;
     padding: 10px 20px;
     box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
 }
 
 .half img {
-    max-width: 100%;
+    max-width: 85%;
     height: auto;
-}
-
-@media (max-width: 768px) {
-    main p {
-        padding: 50px 20px;
-    }
-    
-    .main_container {
-        flex-direction: column;
-        padding: 20px;
-    }
-
-    .half {
-        padding: 5px 20px;
-    }
+    border-radius: 7px;
 }
 
 /* screenshots image scroll */
